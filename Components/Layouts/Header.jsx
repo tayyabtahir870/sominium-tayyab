@@ -3,10 +3,14 @@ import {FaDiscord} from 'react-icons/fa';
 import {GrFacebookOption} from 'react-icons/gr';
 import {FiInstagram} from 'react-icons/fi';
 import {FaTelegramPlane} from 'react-icons/fa';
+import {AiOutlineTwitter} from 'react-icons/ai';
+import {BsYoutube} from 'react-icons/bs'
+import {AiFillWindows} from 'react-icons/ai'
 
 function Header() {
   return (
-    <div className="header">
+  <div className="d-flex head">
+      <div className="header">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
@@ -45,7 +49,7 @@ function Header() {
                 <a className="nav-link active" aria-current="page" href="#">
                 <p className="header-button"> Events</p>
                 </a>
-              </li>
+              </li>  
               <li className="nav-item mt-1 ">
                 <a className="nav-link active " aria-current="page" href="#">
                  <button className="header-color-button">Explore Somnium Map</button>
@@ -70,24 +74,22 @@ function Header() {
                 <a className="nav-link active" aria-current="page" href="#">
                 <p className="header-button">Sign Up</p>
                 </a>
-              </li>
+              </li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <li className="nav-item ">
-                {/* <a className="nav-link active" aria-current="page" href="#"> */}
+               
                  
-                <FaDiscord color="white" size={20}/>
-                <GrFacebookOption color="white" size={20}/>
-                <FiInstagram color="white" size={20}/>
-                <FaTelegramPlane color="white" size={20}/>
+                <FaDiscord color="white" size={20}/> &nbsp;
+                <GrFacebookOption color="white" size={20}/>  &nbsp;
+                <FiInstagram color="white" size={20}/>  &nbsp;
+                <FaTelegramPlane color="white" size={20}/>  &nbsp;
+                <AiOutlineTwitter color="white" size={20}/>  &nbsp;
+                <BsYoutube color="white" size={20}/>  &nbsp;
                 
 
                
-                {/* </a> */}
+              
               </li>
-              <li className="nav-item ">
-                <a className="nav-link active" aria-current="page" href="#">
-                <p className="header-button"> Events</p>
-                </a>
-              </li>  
+             
             </ul>
           </div>
            
@@ -97,6 +99,19 @@ function Header() {
         </div>
       </nav>
     </div>
+   <div className="download">
+   <div>
+        <button className="btn-client ">
+            Download VR Client <AiFillWindows color="white" size={25}/>
+        </button>
+    </div>
+    <div>
+        <button className=" join">
+            Join SOMNIUM <span class="badge color-bdg badge-secondary">WEB</span>
+        </button>
+    </div>
+   </div>
+  </div>
   );
 }
 
