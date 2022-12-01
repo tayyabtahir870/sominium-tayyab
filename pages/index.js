@@ -8,15 +8,17 @@ import Partners from '../Components/Elements/Partners';
 import Available from '../Components/Elements/Available';
 import Mechanics from '../Components/Elements/Mechanics';
 import Virtual from '../Components/Elements/Virtual';
+import Community from '../Components/Elements/Community';
 
 function index() {
   return (
     <div>
       <Header/>
-      {/* <Hero/> */}
+      <Hero/>
       <Virtual/>
     <Mechanics/>
       <Partners/>
+      <Community/>
       <Footer/>
     </div>
   )

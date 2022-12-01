@@ -41,16 +41,17 @@ function Virtual() {
                <img className="img-fluid" src="Assests/vrbox.png" alt="" />
             </div>
         </div>
-        <div className="row">
-           <div className="col-md-3 end-para">
+        <div className="row mb-5">
+           <div className="col-md-3 end-para text-end">
              <p>Chat, Build,</p>
              <p>Trade in dedicated Somnium PC client</p>
            </div>
            <div className="col-md-6">
 
            </div>
-           <div className="col-md-3">
-
+           <div className="col-md-3 end-para">
+                       <p>Oculus Quest</p>
+                       <p>Compatible</p>
            </div>
         </div>
       </div>
