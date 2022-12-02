@@ -12,7 +12,7 @@ function Mechanics() {
        <h3 className="mech">INGAME MECHANICS</h3>
     </div>
         <div className="row ">
-          <div className="col-md-4 text-end mt-5">
+          <div className="col-md-4  mt-5">
             <h1 className="heading">Cross Platform</h1>
             <p className="para">Available on all major VR headsets.</p>
           </div>
@@ -32,7 +32,7 @@ function Mechanics() {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4 text-end  mt-5">
+          <div className="col-md-4   mt-5">
             <h1 className="heading">Customizable PC Client</h1>
             <p className="para">
               Create and adjust your own layout setup for fast in-game
@@ -55,7 +55,7 @@ function Mechanics() {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4 text-end  mt-5">
+          <div className="col-md-4   mt-5">
             <h1 className="heading1">Live Forever</h1>
             <p className="para">
               Automatic recording mode of yourself on your own property for
@@ -79,7 +79,7 @@ function Mechanics() {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-4 text-end  mt-5 mb-5">
+          <div className="col-md-4   mt-5 mb-5">
             <h1 className="heading">Blockchain</h1>
             <p className="para">
               Integration of blockchain allows true ownership of digital goods,

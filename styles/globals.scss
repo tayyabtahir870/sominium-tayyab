@@ -233,6 +233,7 @@
     
     }
     .para-left{
+        
         font-size: 1.2rem;
         margin-top: 4rem;
         margin-right: -2.5rem;
@@ -284,6 +285,7 @@
     color: #fff!important;
     font-family: Source Sans Pro;
     }
+   
     .heading2{
         text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
     color: #fff!important;
@@ -367,6 +369,55 @@
     background-color: #727272;
 }
 
+.calender{
+    background-image: url("../Media/calender.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    
+    .cal-text{
+        text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+        color: #fff!important;
+        font-family: Source Sans Pro;
+        
+    } 
+    .cal-text1{
+        text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+        color: #fff!important;
+        font-family: Source Sans Pro;
+        font-size: 3rem;
+        
+    }
+    .con-tainer{
+        margin-bottom: -1rem;
+    } 
+    .add-button{
+        background-color: linear-gradient(180deg,#505050,#bcbcbc);
+    }
+    .event{
+        
+        width: 100%;
+        font-size: 22px;
+        color: #fff;
+        border-bottom: 2px solid #fff;
+        text-align: center;
+    }
+    .meetup{
+        cursor: pointer;
+       
+        opacity: .5;
+       
+    }
+    .feature{
+        width: 100%;
+    font-size: 22px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    text-align: center;
+    margin-top: 6rem;
+    }
+}
+
 @media only screen and (max-width: 600px) {
    .head{
     flex-direction: column;
@@ -385,7 +436,97 @@
         }
     }
    }
+   .community{
+   .twitter{
+    width: 19rem !important;
+   }
+    .facebook{
+        width: 300px !important;
+    }
+   }
+
+   .virtual{
+    .img1{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+   }
+   .hero{
+    .hero-imgs{
+        display: none;
+    }
+    .hero-imgs1{
+        display: none;
+    }
+    .hero-imgs2{
+        display: none;
+    }
+    .hero-imgs3{
+        display: none;
+    }
+   }
+
+   .virtual{
+    .para-left{
+        
+        font-size: 1.2rem;
+        margin-top: 4rem;
+        margin-right: 2.5rem;
+        text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+    color: #fff!important;
+    font-family: Source Sans Pro;
+    
+    }
+    .para-right{
+        margin-top: 4rem;
+        font-size: 1.2rem;
+        margin-left: 2.5rem;
+        text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+    color: #fff!important;
+    font-family: Source Sans Pro;
+    
+    }
+   }
+
+   .calender{
+    .calender-table{
+        width: 300px;
+    }
+   }
   
+  }
+
+
+  .hero2-page{
+    background-image: url("../Media/2nd.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 170vh;
+    .heading1{
+        text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+    color: #fff;
+    font-family: Source Sans Pro;
+    font-size: 34px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 119px;
+    }
+    .heading2{
+        // margin: 0;
+    text-shadow: 0 2px 10px rgb(145 219 255 / 75%);
+    color: #fff;
+    font-family: Source Sans Pro;
+    font-size: 50px;
+    font-weight: 700;
+    // text-transform: uppercase;
+    // line-height: 10px;
+    }
+    .partnership{
+        color: white;
+    }
   }
 
 

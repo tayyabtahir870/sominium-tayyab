@@ -13,7 +13,7 @@ function Virtual() {
         <div className="row mt-5 ">
           <div className="col-md-3 text-end">
             <p className="para-left">
-              We are creating an Open, Social, Virtual Reality world. A world
+              We are creating an Open, Social,  Virtual Reality world. A world
               with its own economy and its own currency. A VR world with its own
               Marketplace, Games, Social experiences and Virtual Land ownership.
             </p>

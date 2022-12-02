@@ -40,7 +40,7 @@ function Hero() {
                   showDots={true}
                 >
                   <div>
-                   <video className="img-fluid video1" src="Assests/v3.mp4" autoPlay loop muted width={"1600"}></video>
+                   <video className="img-fluid video1" src="Assests/v1.mp4" autoPlay loop muted width={"1600"}></video>
 
                 
                   </div>

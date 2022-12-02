@@ -17,7 +17,7 @@ function Header() {
             <img src="Assests/header-img.png" alt="" />
           </a>  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <button
-            className="navbar-toggler"
+            className="navbar-toggler bg-white"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
