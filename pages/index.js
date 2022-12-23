@@ -10,13 +10,15 @@ import Virtual from '../Components/Elements/Virtual';
 import Community from '../Components/Elements/Community';
 import Calender from '../Components/Elements/Calender';
 import Solana from '../Components/Elements/Solana';
+import Mountain from '../Components/Elements/Mountain';
 
 function index() {
   return (
     <div>
       <Header/>
       <Hero/>
-      <Solana/>
+      {/* <Solana/> */}
+      {/* <Mountain/> */}
       <Virtual/>
     <Mechanics/>
       <Partners/>
